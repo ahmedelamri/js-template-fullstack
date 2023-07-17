@@ -1,12 +1,12 @@
-import Home from "./pages/Home";
-
+import Navbar from "./components/Navbar";
+import ParfumCard from "@components/ParfumCard";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <p>coucou</p>
+      <Navbar />
+      <ParfumCard />
     </div>
   );
 }
